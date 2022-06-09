@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-image: url(../img/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .logo{
+    height: 7vh;
+    margin: 5vh 10vh;
+}
+
+.info{
+    display: flex;
+}
+
+.info::before{
+    content: url(../img/illustration-mockups.svg);
+    padding: 5vh 10vh;
+}
